@@ -9,3 +9,6 @@ This date picker calendar completely independent and easily integrated into any 
 - It is possible to use AJAX or to connect your functions.
 - Highly-customizable.
 - Requirements IE 10+
+
+Description:
+http://cssworld.ru/en/datepicker/
