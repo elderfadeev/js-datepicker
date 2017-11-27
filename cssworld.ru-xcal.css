@@ -1,0 +1,16 @@
+.xcalend{position:absolute;z-index:999;width:150px;line-height:1.2em;font-size:15px;text-align:center;background:#fff;border:2px solid #ddd}
+.xcalend td{cursor:pointer;padding:6px}
+.xcalend thead td{color:#333}
+.xcalend thead tr:last-child td{font-size:12px;background:#fff;color:#555;cursor:default}
+.xcalend tbody td{color:#025}
+.xcalend tfoot td{color:#333}
+.xcalend tbody td.tday{background:#eee;font-weight:bold}
+.xcalend tbody td:hover, .xcalend td:hover{background:#025;color:#acf}
+.xcalend tbody td:nth-child(n+6){color:#e78c5c}
+.xcalend .cal-first td:nth-last-child(-n+2){color:#e78c5c}
+.xcalend tbody td.today{background:#d00;color:#fff;font-weight:bold}
+.xcalend tbody td.bold{font-weight:bold}
+.xcalend tbody td.cal-l b, .xcalend tbody td.cal-r b{display:none}
+.xcalend tbody td.cal-l:hover b, .xcalend tbody td.cal-r:hover b{display:inline}
+.xcalend a{text-decoration:none}
+.xcalend th a{color:#ccc;display:block;padding:5px 0}
