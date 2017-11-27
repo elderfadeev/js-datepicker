@@ -1,5 +1,5 @@
 # js-datepicker
-Simple JavaScript date picker calendar. It is possible to use AJAX or to connect your own functions. See details at:
+Simple JavaScript date picker calendar. It is possible to use AJAX or to connect your own functions.
 
 This date picker calendar completely independent and easily integrated into any project and user friendly.
 
