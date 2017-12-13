@@ -1,5 +1,5 @@
 /*
-xCal datepicker version 1.7
+xCal datepicker version 1.8
 Alex Fadeev elderfadeev(a)gmail.com
 Free to use under mit licence
 http://cssworld.ru/en/datepicker/
@@ -64,12 +64,12 @@ if(typeof ob!=="object") {
 		return false;
 	}
 	if(ob==2 || ob==="now") { // Return Now
-		var D = new Date(), d = D.getMonth(), m = D.getMonth()+1, y = D.getFullYear();
+		var D = new Date(), d = D.getDate(), m = D.getMonth()+1, y = D.getFullYear();
 		if(d<10) d = "0"+d;
 		if(m<10) m = "0"+m;
-		if(a.order==1) return y+a.delim+m+a.delim+D.getDate();
-		if(a.order==2) return m+a.delim+D.getDate()+a.delim+y;
-		else return D.getDate()+a.delim+m+a.delim+y;
+		if(a.order==1) return y+a.delim+m+a.delim+d;
+		if(a.order==2) return m+a.delim+d+a.delim+y;
+		else return d+a.delim+m+a.delim+y;
 	}
 }
 a.o = Nod(ob);
